@@ -1,0 +1,70 @@
+body {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: monospace;
+}
+section {
+	display: flex;
+	align-self: center;
+	border: 2px solid black;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 300px;
+	padding-bottom: 40px;
+}
+p {
+	font-size: 20px;
+	margin-bottom: -10px;
+
+
+}
+h2 {
+	font-size: 25px;
+
+}
+div {
+	display: flex;
+	font-size: 14px;
+	font-family: arial;
+	margin-top: 4px;
+}
+.increment {
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+	background-color: lightgreen;
+	margin: 5px;
+	border: 1px solid green;
+	border-radius: 4px;
+}
+.increment:active {
+	transform: scaleZ(0.9);
+}
+.decrement:active {
+	transform: scaleZ(0.9);
+}
+.decrement {
+	width: 100px;
+	height: 30px;
+	font-size: 17px;
+	background-color: orangered;
+	border: 1px solid orange;
+	border-radius: 4px;
+	color: white;
+}
+.save {
+	width: 50px;
+	height: 25px;
+	font-size: 18px;
+	margin-top: 5px;
+	background-color: lightskyblue;
+	text-align: center;
+	border: 1px solid skyblue;
+	border-radius: 3px;
+
+}
+.save:active {
+	transform: scale(1.06);
+}
